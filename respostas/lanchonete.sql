@@ -101,8 +101,8 @@ INSERT INTO PRODUTO (COD_PROD, NOME, VALOR, QTD_EM_ESTOQUE) VALUES
 (1, 'Hamburguer', 30.00, 50),
 (2, 'Refrigerante', 10.00, 50),
 (3, 'Batata Frita', 15.00, 50),
-(4, 'Combo 1 (Hamburguer + Refri)', 35.00, 50),
-(5, 'Combo 2 (Hamb + Refri + Batata)', 50.00, 50);
+(4, 'Combo 1 (Hamburguer + Refri)', 35.00, 0),
+(5, 'Combo 2 (Hamb + Refri + Batata)', 50.00, 0);
 
 -- COMBO 
 INSERT INTO COMBO (COD_COMBO, COD_PROD_DO_COMBO, QTD_PROD_NO_COMBO) VALUES
